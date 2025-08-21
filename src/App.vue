@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import JSON from './components/JSON.vue';
 import MyName from './components/MyName.vue';
 import TheWelcome from './components/TheWelcome.vue'
+import Form from './components/Form.vue'
 </script>
 
 <template>
@@ -12,7 +13,8 @@ import TheWelcome from './components/TheWelcome.vue'
     <div class="wrapper">
       <!-- <HelloWorld msg="You did it!" />
       <MyName /> -->
-      <JSON />
+      <!-- <JSON /> -->
+      <Form />
     </div>
   </header>
 
